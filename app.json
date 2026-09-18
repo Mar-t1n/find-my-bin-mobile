@@ -7,7 +7,11 @@
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.martin2tuff.findmybin",
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app needs camera access to scan items and identify which bin they belong in."
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -16,10 +20,14 @@
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "permissions": ["android.permission.CAMERA"]
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "react-native-fast-tflite"
+    ]
   }
 }
