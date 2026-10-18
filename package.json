@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "find-my-binv2-ui",
   "version": "1.0.0",
   "main": "expo-router/entry",
@@ -38,15 +39,42 @@
     "@types/react": "~19.2.2",
     "eslint": "^9.0.0",
     "eslint-config-expo": "~57.0.2",
+=======
+  "name": "find-my-bin-v2",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "dependencies": {
+    "expo": "~57.0.24",
+    "expo-dev-client": "~57.0.19",
+    "expo-image-manipulator": "~57.0.19",
+    "expo-status-bar": "~57.0.1",
+    "jpeg-js": "^0.4.4",
+    "react": "19.2.3",
+    "react-native": "0.86.3",
+    "react-native-fast-tflite": "^3.0.1",
+    "react-native-nitro-image": "^0.15.2",
+    "react-native-nitro-modules": "^0.37.1",
+    "react-native-vision-camera": "^5.2.3",
+    "react-native-worklets-core": "^1.6.3"
+  },
+  "devDependencies": {
+    "@types/react": "~19.2.2",
+>>>>>>> 71f6008f7244fe6a3f57d758d1c2ef4223511701
     "typescript": "~6.0.3"
   },
   "scripts": {
     "start": "expo start",
+<<<<<<< HEAD
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
     "lint": "expo lint",
     "typecheck": "tsc --noEmit"
+=======
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web"
+>>>>>>> 71f6008f7244fe6a3f57d758d1c2ef4223511701
   },
   "private": true
 }

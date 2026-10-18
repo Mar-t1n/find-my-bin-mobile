@@ -1,12 +1,18 @@
 {
   "expo": {
+<<<<<<< HEAD
     "name": "Find My Bin",
     "slug": "find-my-binV2-UI",
     "scheme": "findmybin",
+=======
+    "name": "find-my-bin-V2",
+    "slug": "find-my-bin-V2",
+>>>>>>> 71f6008f7244fe6a3f57d758d1c2ef4223511701
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+<<<<<<< HEAD
     "backgroundColor": "#F4EBDD",
     "ios": {
       "supportsTablet": false,
@@ -20,11 +26,30 @@
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
       "predictiveBackGestureEnabled": false
+=======
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.martin2tuff.findmybin",
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app needs camera access to scan items and identify which bin they belong in."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "permissions": ["android.permission.CAMERA"]
+>>>>>>> 71f6008f7244fe6a3f57d758d1c2ef4223511701
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
+<<<<<<< HEAD
       "expo-router",
       [
         "expo-splash-screen",
@@ -58,5 +83,9 @@
     "experiments": {
       "typedRoutes": true
     }
+=======
+      "react-native-fast-tflite"
+    ]
+>>>>>>> 71f6008f7244fe6a3f57d758d1c2ef4223511701
   }
 }
